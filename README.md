@@ -23,33 +23,31 @@ Movie-Magic/
 ├── .idea/
 ├── .mvn/
 ├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── com/movieticket/Movie.Magic/
-│   │   │       ├── advice/              # Global exception handling
-│   │   │       ├── config/              # Security and other configurations
-│   │   │       ├── controller/          # REST API endpoints
-│   │   │       ├── dto/                 # Data Transfer Objects
-│   │   │       ├── exception/           # Custom exception classes
-│   │   │       ├── model/               # JPA Entities for the database
-│   │   │       ├── repository/          # Data access layer (Spring Data JPA)
-│   │   │       ├── security/            # JWT and security-related classes
-│   │   │       └── service/             # Business logic layer
-│   │   │       └── MovieMagicApplication.java  # Main application entry point
-│   │   └── resources/
-│   │       ├── static/                  # Static web resources
-│   │       ├── templates/               # (If you're using a templating engine like Thymeleaf)
-│   │       └── application.properties   # Application configuration
-│   └── test/
-│       └── java/
-│           └── com/movieticket/Movie.Magic/
-│               └── MovieMagicApplicationTests.java # Unit/Integration tests
-└── target/
-└── .gitignore
-└── HELP.md
-└── pom.xml                    # Maven project configuration
-
-
+│ ├── main/
+│ │ ├── java/
+│ │ │ └── com/movieticket/MovieMagic/
+│ │ │ ├── advice/ # Global exception handling
+│ │ │ ├── config/ # Security and other configurations
+│ │ │ ├── controller/ # REST API endpoints
+│ │ │ ├── dto/ # Data Transfer Objects
+│ │ │ ├── exception/ # Custom exception classes
+│ │ │ ├── model/ # JPA Entities for the database
+│ │ │ ├── repository/ # Data access layer (Spring Data JPA)
+│ │ │ ├── security/ # JWT and security-related classes
+│ │ │ └── service/ # Business logic layer
+│ │ │ └── MovieMagicApplication.java # Main application entry point
+│ │ └── resources/
+│ │ ├── static/ # Static web resources
+│ │ ├── templates/ # (If using Thymeleaf)
+│ │ └── application.properties # Application configuration
+│ └── test/
+│ └── java/
+│ └── com/movieticket/MovieMagic/
+│ └── MovieMagicApplicationTests.java # Unit/Integration tests
+├── target/
+├── .gitignore
+├── HELP.md
+└── pom.xml # Maven project configuration
 🔌 API Endpoints
 All endpoints are relative to https://localhost:8080.
 
